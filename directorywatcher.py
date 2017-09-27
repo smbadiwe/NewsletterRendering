@@ -62,7 +62,7 @@ class DirectoryWatcher:
             if added or removed:
                 data = self.html_data(after)
                 self.write_file(data, file_name)
-                before = after
+                # before = after
 
 
 if __name__ == '__main__':
